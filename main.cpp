@@ -17,6 +17,7 @@ int main()
             SumGP += z;
             SumCC += y;
         }
+    //test
     cout << "CGPA: " << fixed << setprecision(2)<<SumGP/SumCC;
     return 0;
 }

@@ -12,3 +12,5 @@ In case you want to:
 - etc.
 
 Please don't hesitate to open up an issue and briefly explain any problems you meet or any ideas you have.
+
+Thank you so much for your time and I hope you have a great day!

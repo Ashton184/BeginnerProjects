@@ -21,30 +21,37 @@ char Computer() {
 int Result(char PlayerMove, char ComputerMove) {
     if (PlayerMove == ComputerMove)
     {
+        cout << "Player: " << PlayerMove << endl << "Computer: " << ComputerMove << endl;
         return 0;
     }
     if (PlayerMove == 's' && ComputerMove == 'r')
     {
+        cout << "Player: " << PlayerMove << endl << "Computer: " << ComputerMove << endl;
         return -1;
     }
     if (PlayerMove == 's' && ComputerMove == 'p')
     {
+        cout << "Player: " << PlayerMove << endl << "Computer: " << ComputerMove << endl;
         return 1;
     }
     if (PlayerMove == 'r' && ComputerMove == 'p')
     {
+        cout << "Player: " << PlayerMove << endl << "Computer: " << ComputerMove << endl;
         return -1;
     }
     if (PlayerMove == 'r' && ComputerMove == 's')
     {
+        cout << "Player: " << PlayerMove << endl << "Computer: " << ComputerMove << endl;
         return 1;
     }
     if (PlayerMove == 'p' && ComputerMove == 'r')
     {
+        cout << "Player: " << PlayerMove << endl << "Computer: " << ComputerMove << endl;
         return 1;
     }
     if (PlayerMove == 'p' && ComputerMove == 's')
     {
+        cout << "Player: " << PlayerMove << endl << "Computer: " << ComputerMove << endl;
         return -1;
     }
     return 0;
@@ -58,7 +65,7 @@ int main() {
     cin >> PlayerMove;
     while (PlayerMove != 'r' && PlayerMove != 'p' && PlayerMove != 's')
     {
-        cout <<"Invalid Input! Please try again";
+        cout <<"Invalid Input! Please try again" << endl;
         cin >> PlayerMove;
     }
     char ComputerMove = Computer();

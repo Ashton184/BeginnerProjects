@@ -3,6 +3,6 @@ project(BeginnerProjects)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(BeginnerProjects CGPA.h
-        CGPA.h
-        RockPaperScissor.cpp)
+add_executable(BeginnerProjects CGPA.hpp
+        CGPA.hpp
+        RockPaperScissor.hpp)
